@@ -54,6 +54,7 @@ Explore the creative process behind the project — from concept and visual dire
 [**View Case Study →**](https://moscowjiro.github.io/AIGC-photography-seven-winters/case-study.html)
 
 ---
+
 # Concept
 
 SEVEN WINTERS 的起点并不是“生成一组俄罗斯风格的照片”。
