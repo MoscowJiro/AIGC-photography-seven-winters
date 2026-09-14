@@ -33,6 +33,27 @@ Concept · Art Direction · Prompt Design · Image Curation · Sequencing · Zin
 
 ---
 
+# Explore the Project
+
+### 📖 Digital Photobook
+
+Experience **SEVEN WINTERS** as an interactive web-based photography zine.
+
+[**Open Web Photobook →**](https://moscowjiro.github.io/AIGC-photography-seven-winters/seven-winters-zine-v2-reader.html)
+
+### 📕 PDF Edition
+
+View the complete photography book as a PDF.
+
+[**View Photobook PDF →**](output/seven-winters-zine-v2.pdf)
+
+### 🧩 Case Study
+
+Explore the creative process behind the project — from concept and visual direction to prompt iteration, curation and final sequencing.
+
+[**View Case Study →**](https://moscowjiro.github.io/AIGC-photography-seven-winters/case-study.html)
+
+---
 # Concept
 
 SEVEN WINTERS 的起点并不是“生成一组俄罗斯风格的照片”。
