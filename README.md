@@ -45,7 +45,7 @@ Experience **SEVEN WINTERS** as an interactive web-based photography zine.
 
 View the complete photography book as a PDF.
 
-[**View Photobook PDF →**](output/seven-winters-zine-v2.pdf)
+[**View Photobook PDF →**](output/seven-winters-zine-v2_compressed.pdf)
 
 ### 🧩 Case Study
 
