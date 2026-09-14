@@ -218,7 +218,7 @@ I was responsible for:
 
 大量候选图片需要经过二次筛选，并重新放回整个系列中进行比较。
 
-![SEVEN WINTERS Contact Sheet](seven-winters-v2-contact-sheet.jpg)
+![SEVEN WINTERS Contact Sheet](output/seven-winters-v2-contact-sheet.jpg)
 
 主要筛选标准包括：
 
