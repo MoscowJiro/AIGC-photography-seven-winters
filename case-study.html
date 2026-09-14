@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SEVEN WINTERS — an AIGC photography and visual storytelling case study by Jiahui Hong.">
+  <title>SEVEN WINTERS — Case Study</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23101010'/%3E%3Ctext x='7' y='45' font-family='Arial' font-size='40' fill='%23efede6'%3E7%3C/text%3E%3Cpath d='M48 8v48' stroke='%238d1d19' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#top">SEVEN WINTERS <span>/ СЕМЬ ЗИМ</span></a>
+    <nav aria-label="Project navigation">
+      <a href="#process">PROCESS</a>
+      <a href="seven-winters-zine-v2-reader.html">READ THE ZINE ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="project-title">
+      <img src="selected/20-final-car-window.png" alt="Moscow seen through a moving car window">
+      <div class="hero-wash"></div>
+      <p class="hero-index">AIGC VISUAL CASE STUDY / 01</p>
+      <div class="hero-title">
+        <h1 id="project-title">SEVEN<br>WINTERS</h1>
+        <p>СЕМЬ ЗИМ<br>2019—2026</p>
+      </div>
+      <p class="hero-credit">JIAHUI HONG<br>MOSCOW / 55.7558 N</p>
+    </section>
+
+    <section class="intro ruled">
+      <p class="eyebrow">01 / BRIEF</p>
+      <div class="intro-copy">
+        <h2>What does a place look like after memory has started to alter it?</h2>
+        <p><strong>SEVEN WINTERS</strong> reconstructs seven years of living and studying in Russia through AI-generated photography. It doesn't attempt to reproduce specific photographs. Instead, it works from what stayed behind: a dorm room, supermarket light after dark, snow beside apartment blocks, a metro ride, a window before sunrise.</p>
+        <p>The result sits between a student diary and a fictional archive. Russia is present as an ordinary, lived place rather than an image of spectacle or nostalgia.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>TYPE</dt><dd>Independent AIGC photography project</dd></div>
+        <div><dt>ROLE</dt><dd>Concept, art direction, prompting, curation, sequencing</dd></div>
+        <div><dt>OUTPUT</dt><dd>16-image series / 26-page digital zine</dd></div>
+        <div><dt>TOOLS</dt><dd>Midjourney, HTML/CSS, digital publishing tools</dd></div>
+      </dl>
+    </section>
+
+    <section class="selected" aria-labelledby="selected-title">
+      <div class="section-head"><p class="eyebrow">02 / SELECTED WORKS</p><h2 id="selected-title">Looking at Russia.<br>Then looking from inside it.</h2></div>
+      <figure class="work work-a"><img src="selected/01-arrival.png" alt="Arrival outside a Moscow airport"><figcaption><span>01 / ARRIVAL</span><span>MOSCOW, 2019</span></figcaption></figure>
+      <figure class="work work-b"><img src="selected/03-dorm-room.png" alt="A first dormitory room"><figcaption><span>02 / FIRST ROOM</span><span>PRIVATE SPACE</span></figcaption></figure>
+      <figure class="work work-c"><img src="selected/05-snow-night.png" alt="A person crossing a snowy residential street at night"><figcaption><span>03 / FIRST WINTER</span><span>−17°C</span></figcaption></figure>
+      <figure class="work work-d"><img src="selected/10-birthday.png" alt="Friends gathered around a birthday cake"><figcaption><span>04 / TOGETHER</span><span>FLASH / 1⁄60</span></figcaption></figure>
+      <blockquote>“Not a record of what Russia looked like, but an attempt to remember how ordinary life felt.”</blockquote>
+      <figure class="work work-e"><img src="selected/15-thesis-desk.png" alt="A thesis desk at night"><figcaption><span>05 / NIGHT WORK</span><span>03:41</span></figcaption></figure>
+      <figure class="work work-f"><img src="selected/17-tram-melt.png" alt="A tram moving along a wet street during the thaw"><figcaption><span>06 / THAW</span><span>ROUTE 17</span></figcaption></figure>
+      <figure class="work work-g"><img src="selected/19-early-morning-window.png" alt="An apartment window in early morning light"><figcaption><span>07 / MORNING</span><span>04:30</span></figcaption></figure>
+      <figure class="work work-h"><img src="selected/20-final-car-window.png" alt="Residential Moscow passing a moving car window"><figcaption><span>08 / FINAL GLIMPSE</span><span>2026</span></figcaption></figure>
+    </section>
+
+    <section class="challenge dark ruled">
+      <p class="eyebrow">03 / THE PROBLEM</p>
+      <div class="challenge-title"><h2>One convincing image was easy.<br>A believable world was not.</h2></div>
+      <div class="challenge-copy">
+        <p>Early generations kept collapsing Russia into familiar visual shortcuts: permanent snow, obsolete interiors, monumental concrete and dramatic cinema lighting. Some images looked good on their own but belonged to the wrong decade—or to no real place at all.</p>
+        <p>The task changed. I wasn't trying to generate the most beautiful frame. I was deciding which frames could exist together without breaking the memory.</p>
+      </div>
+      <div class="rejects" aria-label="Rejected tendencies">
+        <span>TOO SOVIET</span><span>TOO CINEMATIC</span><span>WRONG PERIOD</span><span>VISIBLE AI ARTIFACTS</span><span>REPETITIVE SNOW</span>
+      </div>
+    </section>
+
+    <section class="system ruled">
+      <p class="eyebrow">04 / VISUAL SYSTEM</p>
+      <div class="system-grid">
+        <article><span>01</span><h3>PLACE</h3><p>Contemporary Russia, 2019–2026. Older architecture could remain, but the world could not feel historically frozen.</p></article>
+        <article><span>02</span><h3>CAMERA</h3><p>Observational rather than staged. Uneven framing, natural distance and frames where very little happens.</p></article>
+        <article><span>03</span><h3>LIGHT</h3><p>Overcast daylight, fluorescent interiors, window light and practical lamps after dark.</p></article>
+        <article><span>04</span><h3>COLOR</h3><p>Muted cold tones, restrained saturation and occasional warmth inside private rooms.</p></article>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="process-head"><p class="eyebrow">05 / CURATION</p><h2>Generation made options.<br>Selection made the project.</h2></div>
+      <img class="contact" src="output/seven-winters-v2-contact-sheet.jpg" alt="Contact sheet showing the sixteen selected images">
+      <div class="process-note">
+        <p>The starting folder contained 24 images. Eight were removed because they repeated a scene, felt too polished, or weakened the sequence. The final edit kept 16.</p>
+        <ul>
+          <li>Geographic credibility</li><li>Period accuracy</li><li>Human believability</li><li>Photographic consistency</li><li>Narrative usefulness</li><li>Something new to add</li>
+        </ul>
+      </div>
+      <div class="numbers" aria-label="Project numbers">
+        <div><strong>24</strong><span>SOURCE IMAGES</span></div><div><strong>16</strong><span>FINAL SELECTION</span></div><div><strong>26</strong><span>ZINE PAGES</span></div><div><strong>07</strong><span>WINTERS</span></div>
+      </div>
+    </section>
+
+    <section class="sequence dark">
+      <p class="eyebrow">06 / SEQUENCING</p>
+      <h2>The book follows emotional distance, not strict chronology.</h2>
+      <ol>
+        <li><span>01</span>ARRIVAL</li><li><span>02</span>UNFAMILIAR CITY</li><li><span>03</span>WINTER</li><li><span>04</span>ROUTINE</li><li><span>05</span>TOGETHER</li><li><span>06</span>WORK</li><li><span>07</span>FAMILIARITY</li><li><span>08</span>FINAL GLIMPSE</li>
+      </ol>
+      <div class="mode-row"><div><b>A</b><span>SILENCE</span></div><div><b>B</b><span>IMMERSION</span></div><div><b>C</b><span>MEMORY FRAGMENT</span></div></div>
+    </section>
+
+    <section class="outcome">
+      <div class="book-preview">
+        <img src="selected/09-late-metro.png" alt="Late-night metro image used in the zine">
+        <div class="book-cover"><span>SEVEN</span><span>СЕМЬ ЗИМ</span><strong>WINTERS</strong></div>
+      </div>
+      <div class="outcome-copy">
+        <p class="eyebrow">07 / OUTCOME</p>
+        <h2>A short digital photobook built as a reconstructed memory.</h2>
+        <p>The final edition uses aggressive crops, black pages, contact-sheet fragments and quiet gaps. The sequence begins by looking at Russia from outside, settles into rooms and routines, then ends from inside a moving car.</p>
+        <a class="cta" href="seven-winters-zine-v2-reader.html">OPEN THE 26-PAGE ZINE <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="disclosure ruled">
+      <p class="eyebrow">AI DISCLOSURE</p>
+      <p>All photographic images in this project are AI-generated. They are fictional visual reconstructions informed by personal experience and visual research—not documentary records of real events.</p>
+    </section>
+  </main>
+
+  <footer><span>JIAHUI HONG</span><span>SEVEN WINTERS / 2026</span><a href="#top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
